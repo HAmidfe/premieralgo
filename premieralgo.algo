@@ -1,0 +1,21 @@
+algorthime clacul_chaine
+var ch,ch1:string ;
+i:integer ;
+begin
+write("donner termine avec point") ;
+read (ch)
+
+for i form ch[i] to length.ch
+{
+if { (ch==".")
+ch1==length(ch)
+}
+ 
+ if { (ch==" ")
+ ch1==ch1+1
+
+}
+if { (ch=="o", "e", "u","i","a" )
+ ch1==ch1+1
+
+}
