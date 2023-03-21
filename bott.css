@@ -1,0 +1,36 @@
+:root {
+    --dark-color:#19283f;
+    --red-color:#ff3150;
+}
+body{
+    font-family: "roboto",sans-serif;
+    height: 10000px;
+}
+.main-btn {
+    background-color: var(--red-color);
+    color: yellow;
+}
+.main-title::after {
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: yellow;
+    position: absolute;
+    bottom: -20px;
+}
+.navbar {
+    background-color: var(--dark-color);
+}
+.img{
+    height: 100px;
+}
+.sticky-top{
+    position: sticky;
+}
+.search{
+    border-left: 1px solid ;
+}
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh-72px) ;
+}
